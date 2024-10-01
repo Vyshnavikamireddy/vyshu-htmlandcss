@@ -1,0 +1,21 @@
+@media (min-width:1300px) {
+    .section{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media (max-width:900px) {
+    .section{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width:900px) and (max-width:1299px) {
+    .section{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (max-width:500px) {
+    .section{
+        grid-template-columns: 1fr ;
+    }
+}
+
